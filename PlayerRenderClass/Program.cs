@@ -20,7 +20,7 @@
 
         public Player(char playerChar, int health, int damage, int playerPositionX, int playerPositionY)
         {
-            _playerChar = playerChar;
+            PlayerChar = playerChar;
             _health= health;
             _damage= damage;
             PlayerPositionX = playerPositionX;
@@ -29,7 +29,7 @@
 
         public Player()
         {
-            _playerChar = (char)02;
+            PlayerChar = (char)02;
             _health = 100;
             _damage = 20;
             PlayerPositionX = 5;
