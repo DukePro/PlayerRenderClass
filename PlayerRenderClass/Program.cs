@@ -12,7 +12,7 @@
 
     class Player
     {
-        public char _playerChar { get; private set; }
+        public char PlayerChar { get; private set; }
         private int _health { get; set; }
         private int _damage { get; set; }
         public int PlayerPositionX { get; private set; }
@@ -42,7 +42,7 @@
         public void DrawPlayerIcon(Player player)
         {
             Console.SetCursorPosition(player.PlayerPositionX, player.PlayerPositionY);
-            Console.Write(player._playerChar);
+            Console.Write(player.PlayerChar);
         }
     }
 }
